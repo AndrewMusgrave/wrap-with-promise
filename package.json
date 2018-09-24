@@ -1,0 +1,33 @@
+{
+  "name": "wrap-with-promise",
+  "version": "0.1.0",
+  "description": "Wrap a function with a promise",
+  "license": "MIT",
+  "author": {
+    "name": "Andrew Musgrave",
+    "email": "andrewdmusgrave@gmail.com",
+    "url": "https://github.com/AndrewMusgrave"
+  },
+  "repository": "AndrewMusgrave/wrap-with-promise",
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js"
+  ],
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "devDependencies": {
+    "jest": "^23.4.2"
+  },
+  "keywords": [
+    "functional",
+    "promise",
+    "wrap-with-promise"
+  ]
+}
